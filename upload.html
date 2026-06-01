@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Resume</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Upload Your Resume</h2>
+
+        <form action="/upload_resume" method="POST" enctype="multipart/form-data">
+
+            <label for="resume">Choose Resume:</label>
+            <br><br>
+
+            <input type="file" id="resume" name="resume" required>
+
+            <br><br>
+
+            <button type="submit">
+                Upload Resume
+            </button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+body{
+    background:#f4f6ff;
+    font-family:Arial;
+    text-align:center;
+}
+
+.container{
+    margin-top:150px;
+}
+
+h1{
+    color:#3f51b5;
+}
+
+button{
+    padding:12px 30px;
+    background:#3f51b5;
+    color:white;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
